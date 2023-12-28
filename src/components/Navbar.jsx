@@ -14,7 +14,7 @@ const NavbarComponent = () => {
     <>
     <Container>
     <Navbar expand='sm'>
-        <Navbar.Brand href= '/'>Tero Bau ko Pasal</Navbar.Brand> 
+        <Navbar.Brand href= '/'>React Pasal</Navbar.Brand>
         <Navbar.Toggle/>
         <Navbar.Collapse className='justify-content-end'>
             <Button onClick={handleShow}>
@@ -40,13 +40,13 @@ const NavbarComponent = () => {
           </>
           :
           <h1>There are no items in your cart.</h1>
-          
+
           }
-          
+
         </Modal.Body>
-      </Modal>  
+      </Modal>
     </Container>
-      
+
     </>
   )
 }

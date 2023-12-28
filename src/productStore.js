@@ -1,7 +1,7 @@
 const productsArray = [
     {
         id: '1',
-        name: 'Espresso',
+        name: 'MojIto',
         price: 150
     },
     {
@@ -11,7 +11,7 @@ const productsArray = [
     },
     {
         id: '3',
-        name: 'Latte',
+        name: 'Cold Lemon',
         price: 150
     },
 
